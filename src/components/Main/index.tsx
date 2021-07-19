@@ -1,19 +1,25 @@
 import * as S from './styles'
 
 export const Main = ({
-  title = 'React Avançado',
-  description = 'TypeScript, ReactJS, NextJS and Styled Components'
+  title = 'Next.JS Boilerplate',
+  description = 'A boilerplate using TypeScript, ReactJS, NextJS and Styled Components'
 }) => (
   <S.Wrapper>
-    <S.Logo
-      src="/img/logo.svg"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
-    />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <S.Illustration
       src="/img/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para uma tela com códigos"
+      alt="A developer facing a screen with codes"
     />
+    <S.Credits>
+      This template was built together with{' '}
+      <S.CreditsLink
+        as="a"
+        href="https://www.udemy.com/course/react-avancado/?couponCode=PROMOJUL21"
+      >
+        React Avançado
+      </S.CreditsLink>{' '}
+      course.
+    </S.Credits>
   </S.Wrapper>
 )

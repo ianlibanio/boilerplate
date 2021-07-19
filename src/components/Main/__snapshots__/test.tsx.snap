@@ -2,7 +2,7 @@
 
 exports[`<Main /> should render the heading 1`] = `
 .c0 {
-  background-color: #06092b;
+  background-color: #0d1117;
   color: #fff;
   width: 100%;
   height: 100%;
@@ -26,46 +26,65 @@ exports[`<Main /> should render the heading 1`] = `
 }
 
 .c1 {
-  width: 25rem;
-  margin-bottom: 2rem;
-}
-
-.c2 {
   font-size: 2.5rem;
 }
 
-.c3 {
+.c2 {
   font-size: 2rem;
   font-weight: 400;
 }
 
-.c4 {
+.c3 {
   margin-top: 3rem;
   width: min(30rem,100%);
+}
+
+.c4 {
+  color: #e4e4e4;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-top: 3rem;
+  font-size: 1.75rem;
+  font-weight: 350;
+}
+
+.c5 {
+  color: #3cd3c1;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <main
   class="c0"
 >
-  <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
-    class="c1"
-    src="/img/logo.svg"
-  />
   <h1
-    class="c2"
+    class="c1"
   >
-    React Avançado
+    Next.JS Boilerplate
   </h1>
   <h2
-    class="c3"
+    class="c2"
   >
-    TypeScript, ReactJS, NextJS and Styled Components
+    A boilerplate using TypeScript, ReactJS, NextJS and Styled Components
   </h2>
   <img
-    alt="Um desenvolvedor de frente para uma tela com códigos"
-    class="c4"
+    alt="A developer facing a screen with codes"
+    class="c3"
     src="/img/hero-illustration.svg"
   />
+  <h2
+    class="c4"
+  >
+    This template was built together with
+     
+    <a
+      class="c5"
+      href="https://www.udemy.com/course/react-avancado/?couponCode=PROMOJUL21"
+    >
+      React Avançado
+    </a>
+     
+    course.
+  </h2>
 </main>
 `
