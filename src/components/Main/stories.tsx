@@ -1,5 +1,5 @@
-import { Main } from '.'
 import { Meta, Story } from '@storybook/react'
+import { Main } from '.'
 
 export default {
   title: 'Main',
