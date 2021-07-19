@@ -46,6 +46,8 @@ This project has been developed using the following technologies:
 
 This is a boilerplate for Next.JS created for using at React Avançado course and in my personal projects.
 
+You can preview the boilerplate at: https://boilerplate.ianlibanio.com.
+  
 ## 🤔 Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
