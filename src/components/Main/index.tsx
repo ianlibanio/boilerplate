@@ -5,7 +5,9 @@ export const Main = ({
   description = 'A boilerplate using TypeScript, ReactJS, NextJS and Styled Components'
 }) => (
   <S.Wrapper>
-    <S.Title>{title}</S.Title>
+    <S.Title as="a" href="https://github.com/ianlibanio/boilerplate/">
+      <h1>{title}</h1>
+    </S.Title>
     <S.Description>{description}</S.Description>
     <S.Illustration
       src="/img/hero-illustration.svg"
@@ -13,10 +15,7 @@ export const Main = ({
     />
     <S.Credits>
       This template was built together with{' '}
-      <S.CreditsLink
-        as="a"
-        href="https://www.udemy.com/course/react-avancado/?couponCode=PROMOJUL21"
-      >
+      <S.CreditsLink as="a" href="https://reactavancado.com.br/">
         React Avançado
       </S.CreditsLink>{' '}
       course.

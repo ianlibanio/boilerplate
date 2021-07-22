@@ -14,8 +14,14 @@ export const Wrapper = styled.main`
   justify-content: center;
 `
 
-export const Title = styled.h1`
+export const Title = styled(Link)`
+  color: #fff;
   font-size: 2.5rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 export const Description = styled.h2`
@@ -39,4 +45,8 @@ export const Credits = styled.h2`
 export const CreditsLink = styled(Link)`
   color: #3cd3c1;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `
