@@ -1,5 +1,5 @@
 import { RouterContext } from 'next/dist/next-server/lib/router-context'
-import { GlobalStyle } from '../src/styles/global'
+import { GlobalStyle } from 'styles/global'
 
 export const decorators = [
   (Story) => (
