@@ -11,4 +11,4 @@ export default {
   }
 } as Meta
 
-export const Basic: Story = (args) => <Main {...args} />
+export const Default: Story = (args) => <Main {...args} />
