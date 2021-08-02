@@ -1,7 +1,33 @@
 {
   "name": "boilerplate",
+  "description": "A boilerplate to work with TypeScript, NextJS and Styled Components",
   "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Ian Libânio",
+    "url": "https://ianlibanio.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianlibanio/boilerplate"
+  },
+  "keywords": [
+    "typescript",
+    "eslint",
+    "styled-components",
+    "jest",
+    "reactjs",
+    "nextjs",
+    "prettier",
+    "storybook",
+    "husky",
+    "lint-staged",
+    "testing-library"
+  ],
+  "bugs": {
+    "url": "https://github.com/ianlibanio/boilerplate/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
