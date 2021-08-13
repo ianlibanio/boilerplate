@@ -12,7 +12,6 @@ export const Main = ({
     <S.Illustration
       src="/img/hero-illustration.svg"
       alt="A developer facing a screen with codes"
-      layout="fill"
     />
     <S.Credits>
       This template was built together with{' '}

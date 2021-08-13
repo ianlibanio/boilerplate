@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import styled from 'styled-components'
-import Image from 'next/image'
 
 export const Wrapper = styled.main`
   background-color: #0d1117;
@@ -30,7 +29,7 @@ export const Description = styled.h2`
   font-weight: 400;
 `
 
-export const Illustration = styled(Image)`
+export const Illustration = styled.img`
   margin-top: 3rem;
   width: min(30rem, 100%);
 `
